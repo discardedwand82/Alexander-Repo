@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class FScanner {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name;
+		int age;
+		float weight;
+		
+		Scanner input = new Scanner (System.in);
+		
+		System.out.println("Hello, what is your name???");
+		name = input.nextLine();
+		
+		System.out.println("Ok, what is your age?");
+		age = input.nextInt();
+		
+		System.out.println("Great. Now what is your weight?");
+		
+		
+
+	}
+
+}
